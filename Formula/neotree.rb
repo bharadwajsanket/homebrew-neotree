@@ -1,14 +1,15 @@
 class Neotree < Formula
   desc "Fast directory tree CLI with glob filtering, sorting, and export"
   homepage "https://github.com/bharadwajsanket/neotree"
-  url "https://github.com/bharadwajsanket/neotree/archive/refs/tags/v0.3.1.tar.gz"
+  url "https://github.com/bharadwajsanket/neotree/archive/refs/tags/v0.4.0.tar.gz"
   sha256 "dc073bd755cf1b5d2734e89312a585de88e6ba4cb084fd2f18ce0ff52d6aa7db"
-  license "MIT"
+  license "GPL-3.0-only"
   head "https://github.com/bharadwajsanket/neotree.git", branch: "main"
 
   def install
     system "make"
     bin.install "neotree"
+    bin.install_symlink "neotree" => "ntree"
   end
 
   test do
