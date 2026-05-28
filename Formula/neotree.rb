@@ -1,8 +1,8 @@
 class Neotree < Formula
   desc "Fast directory tree CLI with glob filtering, sorting, and export"
   homepage "https://github.com/bharadwajsanket/neotree"
-  url "https://github.com/bharadwajsanket/neotree/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "ebb961b2a0378b75279596b51a9d1f42a0b11aaf99bc2f2435f25c902bebc128"
+  url "https://github.com/bharadwajsanket/neotree/archive/refs/tags/v0.5.4.tar.gz"
+  sha256 "29a3eda680c36c44c6fc236e37f09f5d27b34a2aec488e69e9aa4f8d324f7c0c"
   license "GPL-3.0-only"
   head "https://github.com/bharadwajsanket/neotree.git", branch: "main"
 
