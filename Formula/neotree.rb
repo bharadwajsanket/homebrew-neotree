@@ -1,8 +1,8 @@
 class Neotree < Formula
-  desc "Fast directory tree CLI with glob filtering, sorting, and export"
+  desc "Traversal by Instinct - fast directory tree CLI"
   homepage "https://github.com/bharadwajsanket/neotree"
-  url "https://github.com/bharadwajsanket/neotree/archive/refs/tags/v1.5.4.tar.gz"
-  sha256 "4655cac185fb198e712c41d0f7a9e255902f1f319ca5dbaa56c5b590bb94efd8"
+  url "https://github.com/bharadwajsanket/neotree/archive/refs/tags/v2.5.4.tar.gz"
+  sha256 "f9a6d90984bd9705b1df42e77c321c8ef026e70ac498d9dc486c53e0bf7f492b"
   license "GPL-3.0-only"
   head "https://github.com/bharadwajsanket/neotree.git", branch: "main"
 
